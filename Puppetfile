@@ -135,7 +135,7 @@ mod 'netstat',
     git: 'https://github.com/ipcrm/ipcrm-netstat.git',
     ref: '64bcee0'
     
-#modified    
+#modified  
 mod 'secteam_cis',
     git: 'https://github.com/ssorb/se_secteam_cis.git',
     branch: 'master'
