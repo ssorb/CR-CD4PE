@@ -133,3 +133,8 @@ mod 'rgbank',
 mod 'netstat',
     git: 'https://github.com/ipcrm/ipcrm-netstat.git',
     ref: '64bcee0'
+    
+    
+mod 'se_secteam_cis',
+    git: 'https://github.com/puppetlabs/se_secteam_cis.git',
+    branch: 'master',
