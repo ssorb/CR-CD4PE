@@ -136,5 +136,5 @@ mod 'netstat',
     
     
 mod 'secteam_cis',
-    git: 'https://github.com/puppetlabs/se_secteam_cis.git',
+    git: 'https://github.com/ssorb/se_secteam_cis.git',
     branch: 'master'
