@@ -7,7 +7,7 @@
 # @example
 #   include secteam::os::rhel_8
 
-class secteam_cis::redhat::redhat_7 (
+class profile::platform::secteam_cis::redhat::redhat_7 (
 
   Boolean $firewall_enabled = true,
   String  $password_history = '50',
