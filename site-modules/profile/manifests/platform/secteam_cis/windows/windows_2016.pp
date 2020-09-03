@@ -12,7 +12,7 @@
 #
 # @example
 #   include secteam::os::windows_2016
-class secteam_cis::windows::windows_2016 (
+class profile::platform::secteam_cis::windows::windows_2016 (
   Boolean $firewall_enabled = true,
   String  $password_history = '50',
   String  $password_length = '15',
