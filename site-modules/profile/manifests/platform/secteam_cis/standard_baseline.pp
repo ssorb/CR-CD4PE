@@ -10,8 +10,8 @@ class profile::platform::secteam_cis::standard_baseline {
   $fam = $facts.get('os.family').downcase()
   $maj = $facts.get('os.release.major').downcase()
 
-  if defined("secteam_cis::${fam}::${fam}_${maj}") {
-    include "secteam_cis::${fam}::${fam}_${maj}"
+  if defined("profile::platform::secteam_cis::${fam}::${fam}_${maj}") {
+    include "profile::platform::secteam_cis::${fam}::${fam}_${maj}"
   }
   else {
     fail('secteam_cis - unsupported operating system, please see readme')
