@@ -1,4 +1,4 @@
-class secteam_cis::sec_example {
+class profile::platform::secteam_cis::sec_example {
 
   #noop()
 
