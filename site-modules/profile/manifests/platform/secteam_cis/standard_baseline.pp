@@ -5,7 +5,7 @@
 #
 # @example
 #   include secteam::standard_baseline
-class secteam_cis::standard_baseline {
+class profile::platform::secteam_cis::standard_baseline {
 
   $fam = $facts.get('os.family').downcase()
   $maj = $facts.get('os.release.major').downcase()
