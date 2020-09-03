@@ -15,7 +15,8 @@
 class profile::platform::secteam_cis::windows::windows_2016 (
   Boolean $firewall_enabled = true,
   String  $password_history = '50',
-  String  $password_length = '15',
+  #String  $password_length = '15',
+  Integer $password_length = 15, 
 ) {
 
   # pick 10 controls. ~5 params to override values. 
