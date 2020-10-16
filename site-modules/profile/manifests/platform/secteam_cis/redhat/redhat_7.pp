@@ -88,26 +88,26 @@ class profile::platform::secteam_cis::redhat::redhat_7 (
   }
 
   # 3.4.2.2 Ensure nftables is not enabled (Scored)
-  service { 'nftables':
-    ensure => 'stopped',
-    enable => 'false',
-    tag      => ['CIS_RHEL_3'],
-  }
+#  service { 'nftables':
+#    ensure => 'stopped',
+#    enable => 'false',
+#    tag      => ['CIS_RHEL_3'],
+#  }
 
   # 4.1.1.1 Ensure auditd is installed (Scored)
-  $audit_pkgs = [ 'audit', 'audit-libs']
-  package { $audit_pkgs:
-    ensure   => 'present',
-    provider => 'yum',
-    tag      => ['CIS_RHEL_4'],
-  }
+#  $audit_pkgs = [ 'audit', 'audit-libs']
+#  package { $audit_pkgs:
+#    ensure   => 'present',
+#    provider => 'yum',
+#    tag      => ['CIS_RHEL_4'],
+#  }
 
   # 4.1.1.2 Ensure auditd service is enabled (Scored)
-  service { 'auditd':
-    ensure => 'running',
-    enable => 'true',
-    tag    => ['CIS_RHEL_4'],
-  }
+#  service { 'auditd':
+#    ensure => 'running',
+#    enable => 'true',
+#    tag    => ['CIS_RHEL_4'],
+#  }
 
 }
 
